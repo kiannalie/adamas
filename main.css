@@ -182,7 +182,7 @@ main {
 
 .vid-wrapper{
     height: 80vh;
-    background-color: #d4c9c9;
+    background-color: #034078;
     overflow: hidden;
     position: relative;
 
@@ -435,7 +435,7 @@ background: radial-gradient(circle farthest-corner at center center, #034078 0%,
     font-family: 'PP Hatton';
     font-weight: normal;
     text-align: center;
-    font-size: 4vh;
+    font-size: 7vh;
     }
     .call-to-action {
         display: flex;
