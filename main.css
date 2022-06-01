@@ -427,7 +427,7 @@ background: radial-gradient(circle farthest-corner at center center, #034078 0%,
         font-family: 'PP Hatton';
         font-weight: lighter;
         text-align: center;
-        font-size: vh;
+        font-size: 4vh;
         text-transform: uppercase;
     }
     .text-mobile{

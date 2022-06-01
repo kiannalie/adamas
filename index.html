@@ -68,7 +68,7 @@
               <div class="txt-wrapper" data-scroll data-scroll-offset="200">
                   <h1 class="text"data-scroll data-scroll-speed="2" >ADAMAS: </h1>
                   <h3 class=" light-text" data-scroll data-scroll-speed="1">a <span class="">
-                    we are a community of <span class="fancy-txt">social entrepreneurs </span>passionate about helping <span class="fancy-txt">underrepresented communities</span> and individuals discover their personal prosperity through minimizing the <span class="fancy-txt">digital divide</span>, creating <span class="fancy-txt">equitable access</span> to technology, and <span class="fancy-txt">growing careers</span> in technology.
+                    we are a community of <span class="fancy-txt">social entrepreneurs </span>passionate about helping <span class="fancy-txt">underrepresented</span> communities and individuals discover their personal prosperity through minimizing the <span class="fancy-txt">digital divide</span>, creating <span class="fancy-txt">equitable access</span> to technology, and <span class="fancy-txt">growing careers</span> in technology.
                   </h3>
               </div>
             </div>
@@ -227,7 +227,7 @@
         <p class="footer-text"> Adamas in a non-profit registered in the state of Utah. </p>
         </div>
         <div>
-          <p class="footer-text">website built by Kiannalie LLC</p>
+          <p class="footer-text">501(c) Pending</p>
         </div>
       </section>
   </main>
@@ -242,6 +242,15 @@
     el: document.querySelector('[data-scroll-container]'),
     smooth: true
 });
+setTimeout(() => {  
+    locoScroll.destroy();
+}, 0);
+setTimeout(() => {  
+    locoScroll.init();
+}, 50);
+setTimeout(() => {  
+    locoScroll.update();
+}, 1000);
 var vid = document.getElementById("myVideo"); 
 
 function playVid() { 
