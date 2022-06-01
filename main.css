@@ -459,13 +459,19 @@ background: radial-gradient(circle farthest-corner at center center, #034078 0%,
     .p-text {
         color: white;
         font-family: 'Inter';
-        text-align: left;
+        text-align: center;
         font-weight: 300;
         font-size: 3vh;
     }
     .summary-heading{
         padding: 0px 10px;
         padding-top: 60px;
+    }
+    .sub-heading {
+        text-align: center;
+    }
+    .sub-point{
+        text-align: center;
     }
 }
 
@@ -514,6 +520,12 @@ background: radial-gradient(circle farthest-corner at center center, #034078 0%,
     .txt-wrapper {
         padding: 10vw;
     }
+    .sub-heading{
+        text-align: left;
+    }
+    .sub-point{
+        text-align: left;
+    }
         
 }
 .direct-wrapper{
@@ -523,7 +535,7 @@ background: radial-gradient(circle farthest-corner at center center, #034078 0%,
 .sub-heading {
     color: white;
     font-family: 'Inter';
-    text-align: left;
+  
     font-weight: 300;
     font-size: 3vh;
     text-decoration: underline;
@@ -536,7 +548,7 @@ background: radial-gradient(circle farthest-corner at center center, #034078 0%,
 .sub-point{
     color: white;
     font-family: 'Inter';
-    text-align: left;
+   
     font-weight: 100;
     font-size: 2vh;
 }
@@ -594,4 +606,13 @@ i {
     color: black;
     padding: 5px;
     font-size: 3vh;
+}
+.footer-wrapper{
+    text-align: center;
+}
+.futher-info-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
