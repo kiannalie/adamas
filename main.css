@@ -57,6 +57,12 @@ body {
     font-weight: normal;
     margin: 0px;
 }
+.text-small{
+    color: white;
+    font-family: 'PP Hatton';
+    font-weight: normal;
+    margin: 0px;
+}
 .light-text{
     color: white;
     font-family: 'Inter', sans-serif;
@@ -77,6 +83,27 @@ body {
 main {
     background-color: #000000;
 }
+.navbar-default {
+    background-color: #000000;
+    border-color: #000000; 
+}
+.navbar {
+    position: relative;
+    min-height: 20px;
+    margin-bottom: 0px;
+    border: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background-color: #034078;
+    background-image: none;
+    
+}
+@media (min-width: 768px){
+.navbar {
+    border-radius: 0px;
+}
+}
 .nav {
     display: flex;
     justify-content: space-between;
@@ -85,9 +112,10 @@ main {
     background-color: #000000;
     height: 6vh;
 }
+
 .icon {
     color: #F0F0F0;
-    padding: 40px;
+    padding: 10px;
     font-size: 3vh;
 }
 .svg-wrapper{
@@ -353,7 +381,7 @@ button{
     flex-direction: column;
     align-items: center;
 }
-  .social-icons{
+.social-icons{
       color: white;
       font-size: 4vh;
       padding: 15px
@@ -435,7 +463,7 @@ background: radial-gradient(circle farthest-corner at center center, #034078 0%,
     font-family: 'PP Hatton';
     font-weight: normal;
     text-align: center;
-    font-size: 7vh;
+    font-size: 10vh;
     }
     .call-to-action {
         display: flex;

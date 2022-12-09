@@ -1,0 +1,30 @@
+<!-- required points
+______html stuff______
+    head ✅
+    body✅
+    title✅
+    p✅
+    h1, h2✅
+    ul✅
+    ol✅
+    em✅
+    strong ✅
+    hr✅
+    images✅
+    links✅
+
+creative project 1 = build a webstie 
+    A home page
+    Three or more additional pages
+    The site uses some images
+    The site uses Bootstrap for a menu
+______css______ 
+ including styling text, using the box model, 
+ and using both class and ID selectors.
+ horizontal menu
+Create a new folder for this exercise so you don't lose your prior work.
+Demonstrate the use of flexbox.
+Use a responsive design.
+
+
+-->

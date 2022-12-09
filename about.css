@@ -1,0 +1,76 @@
+.mission-points-wrapper{
+    display: flex;
+}
+#text-small{
+    color: white;
+    font-family: 'PP Hatton';
+    font-weight: normal;
+    margin: 0px;
+}
+.about-header{
+    padding: 30px;
+}
+.about-img{
+    height: 0;
+}
+.txt-wrapper-about {
+    height: 20vh;
+}
+
+
+.kpi-wrapper-text{
+    padding-top: 10vh;
+}
+.text-kpi{
+    color: white;
+    font-family: 'PP Hatton';
+    font-size: 30px;
+    font-weight: normal;
+    margin: 0px;
+}
+.kpi-wrapper {
+    /* padding-top: 30vh; */
+}
+.spacer-test{
+    height: 30vh;
+}
+.text-small-about{
+    font-size: 20px;
+    color: white;
+    font-family: 'PP Hatton';
+    font-weight: normal;
+  
+}
+.vid-wrapper-about {
+    height: 50vh;
+    background-color: #000000c9;
+    overflow: hidden;
+    position: relative;
+}
+.text-about-parallax{
+    padding: 30px 0px;
+    color: #5284b2;
+    font-size: 5vh;
+    text-align: center;
+    font-family: 'PP Hatton';
+    font-weight: normal;
+    margin: 0px;
+}
+/*****************************
+    mobile phone media  
+******************************/
+@media (max-width: 43rem) {
+    .txt-wrapper-about {
+        padding: 3vw;
+    }
+
+}
+
+/*****************************
+   laptop media  
+******************************/
+@media (min-width: 72rem) {
+    .txt-wrapper-about {
+        padding: 10vw;
+    }
+}
